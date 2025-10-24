@@ -1,0 +1,22 @@
+body{
+    background-color: aquamarine;
+    
+}
+
+p{
+    color: rgb(255, 12, 12);
+    text-align: justify;
+    margin: 25px;
+}
+
+.azul{
+    color: rgb(32, 16, 255);
+    font-size: 20px;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+
+}
+
+#roxo{
+    color: blueviolet;
+}
