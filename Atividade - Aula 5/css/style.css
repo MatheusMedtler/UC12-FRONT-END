@@ -1,0 +1,19 @@
+.azul{
+    background-color: blue;
+    text-align: center;
+}
+
+#cinza{
+    background-color: grey;
+    font-size: 18px;
+
+}
+
+#botao{
+    background-color: red;
+    color: white;
+    border-radius: 24%;
+    font-size: medium;
+    width: 90px;
+    height: 40px;
+}
