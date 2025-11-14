@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #263f54;
+  color: white;
+}
+header {
+  background-color: #171d25;
+  padding: 10px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-primario ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.menu-primario a {
+  font-weight: bold;
+  color: white;
+}
+
+.Instalar {
+  background-color: rgb(10, 199, 10);
+  padding: 7px;
+  margin-bottom: 3px;
+}
+
+.menu-primario {
+  background-color: #171d25;
+  padding: 10px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-secundario {
+  background-color: #16202d;
+  padding: 10px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-secundario a {
+  color: white;
+}
+
+.menu-secundario ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.foto {
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.logo-steam {
+  width: 150px;
+  height: auto;
+  float: left;
+}
+
+.recomendados {
+  background: linear-gradient(180deg, #1b2838 0%, #171a21 100%);
+  padding: 25px;
+  margin: 20px auto;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 1300px;
+  
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.6);
+}
+
+.titulo {
+  font-size: 1.5em;
+  color: #c7d5e0;
+  margin-bottom: 20px;
+}
+
+.destaque-container {
+
+  display: flex;
+  gap: 25px;
+  align-items: flex-start;
+}
+
+.imagem-grande {
+  flex: 2;
+}
+
+.imagem-grande img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+  transition: transform 0.3s ease;
+}
+
+.imagem-grande img:hover {
+  transform: scale(1.02);
+}
+
+.info-jogo {
+  flex: 1;
+  background-color: #0e141b;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: inset 0 0 10px rgba(209, 12, 12, 0.05);
+}
+
+.info-jogo h3 {
+  font-size: 1.4em;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.miniaturas {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.miniaturas img {
+  width: 100%;
+  border-radius: 6px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.miniaturas img:hover {
+  transform: scale(1.05);
+}
+
+.disponivel {
+  color: #c7d5e0;
+  font-size: 1em;
+  margin: 10px 0 5px;
+}
+
+.tag {
+  background-color: #66c0f4;
+  color: #0e141b;
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 0.85em;
+  font-weight: bold;
+}
+
+
+
+
+
+  .imagem-grande, .info-jogo {
+    width: 100%;
+  }
+
+
